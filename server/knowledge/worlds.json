@@ -1,0 +1,64 @@
+{
+  "worlds": {
+    "Zombie Apocalypse": {
+      "name": "Zombie Apocalypse",
+      "tagline": "Survive the infected wasteland of Sector 4",
+      "glowColor": "violet",
+      "worldRules": "You are Sir Kirti, a hardened survivor navigating Sector 4, a sprawling concrete jungle crawling with flesh-eating infected, mutated survivors, and rogue scavengers. Resources are extremely scarce. Weapons are makeshift, like crowbars, lead pipes, and rare 9mm handguns. Every corner smells of decay and oil.",
+      "locations": [
+        "Store",
+        "Hospital",
+        "High School",
+        "Highway",
+        "Bridge"
+      ],
+      "monsters": ["Walker", "Runner", "Bloater", "Rogue Scavenger"],
+      "boss": "The Alpha Mutated Tank",
+      "startingInventory": [
+        { "name": "Crowbar", "type": "weapon", "quantity": 1 },
+        { "name": "Canned Meat", "type": "food", "quantity": 1 },
+        { "name": "Small Radio", "type": "utility", "quantity": 1 }
+      ]
+    },
+    "Pirate Ocean": {
+      "name": "Pirate Ocean",
+      "tagline": "Sail cursed waters of the Black Reef",
+      "glowColor": "blue",
+      "worldRules": "You are Captain Kirti, sailing the treacherous, shark-infested Black Reef under a perpetual heavy thunderstorm. Mythic leviathans, skeleton pirate ships, and cursed ghosts haunt the dark blue waves. Combat is settled with rusted cutlasses, flintlock pistols, and heavy ship cannons. Gold is the only currency that matters.",
+      "locations": [
+        "Ship Deck",
+        "Smuggler's Cave",
+        "Port Royal Tavern",
+        "Skeleton Island",
+        "Kraken's Abyss"
+      ],
+      "monsters": ["Ghost Sailor", "Scurvy Raider", "Cursed Skeleton", "Giant Reef Shark"],
+      "boss": "The Kraken",
+      "startingInventory": [
+        { "name": "Rusted Cutlass", "type": "weapon", "quantity": 1 },
+        { "name": "Rye Biscuit", "type": "food", "quantity": 2 },
+        { "name": "Old Spyglass", "type": "utility", "quantity": 1 }
+      ]
+    },
+    "Magic Academy": {
+      "name": "Magic Academy",
+      "tagline": "Uncover secrets inside the Arcane Spire",
+      "glowColor": "pink",
+      "worldRules": "You are Scholar Kirti, an apprentice at the grand Arcane Spire. The floating towers of the Academy are packed with rogue spell-books, mischievous imps, animated stone gargoyles, and forbidden library vaults. Energy flows as Mana. Spells require wands, magic crystals, and incantations.",
+      "locations": [
+        "Grand Library",
+        "Arcane Courtyard",
+        "Forbidden Vault",
+        "Floating Spire",
+        "Alchemist's Lab"
+      ],
+      "monsters": ["Rogue Spellbook", "Mischievous Imp", "Mana Wraith", "Gargoyle Sentry"],
+      "boss": "The Shadow Archmage",
+      "startingInventory": [
+        { "name": "Apprentice Wand", "type": "weapon", "quantity": 1 },
+        { "name": "Mana Potion", "type": "potion", "quantity": 1 },
+        { "name": "Spellbook of Sparks", "type": "utility", "quantity": 1 }
+      ]
+    }
+  }
+}
