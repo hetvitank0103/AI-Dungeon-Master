@@ -1,0 +1,404 @@
+[
+  {
+    "id": "game_kcaizpfmx",
+    "player": {
+      "name": "Sir Kirti",
+      "class": "Knight",
+      "health": 55,
+      "mana": 50,
+      "gold": 250,
+      "level": 2,
+      "experience": 85
+    },
+    "world": {
+      "name": "Pirate Ocean",
+      "difficulty": "Medium",
+      "currentLocation": "Ship Deck"
+    },
+    "story": {
+      "currentText": "You scream a war cry that matches the fury of the storm, swinging your rusted cutlass in a wide, punishing arc above your head. The steel whistles through the torrential rain, gathering the weight of your desperation as it descends squarely upon the Ghost Captain's spectral collarbone. With a sound like a cracking glacier, the blade cleaves deep into his ethereal essence, causing the spirit to shatter into a flurry of blinding, necrotic sparks. The captain lets out one final, agonizing wail that seems to shatter the very clouds above, before dissolving entirely into the roiling, dark sea. As the last remnants of his presence vanish, a heavy, golden glint catches the moonlight amidst the debris on the deck: the fabled Golden Skull, pulsating with a dark, rhythmic thrum. The storm begins to subside, leaving you gasping for breath upon the slick, splintered timber of your triumphant vessel.",
+      "history": [
+        "The storm roars above as your ship, The Iron Kraken, slams through the jagged, dark waves of the Black Reef. Rain lashes against the deck, cold and stinging, while lightning illuminates the skeletal remains of a merchant vessel floating nearby. Your rusted cutlass hangs heavy at your hip, and the scent of ozone and brine fills the air. A spectral figure suddenly materializes on the prow, its hollow eyes locked onto yours, and the sound of phantom bells rings out across the churning ocean. The hunt for the Golden Skull begins in earnest, but you are not alone on these cursed waters. You feel the weight of the dark ocean pressing in, and the true challenge of the Pirate Ocean has just revealed its teeth. The ghost captain lets out a haunting laugh, beckoning you to join him in his watery grave.",
+        "Action: Eat a Rye Biscuit to boost your morale.",
+        "You tear into the hard, stale rye biscuit, the rough texture scraping against your throat as you chew. It is flavorless and tough, tasting mostly of salt and despair, yet the simple act of eating provides a momentary grounding sensation amidst the chaos of the supernatural storm. As the last crumb dissolves, you feel a slight resurgence of grit in your bones; your resolve hardens, and you square your shoulders against the spectral chill radiating from the ghost captain. The phantom before you pauses his haunting laughter, his jaw dropping open in a silent, mocking sneer as you prepare for the inevitable clash of steel and spirit. You are fortified, but the ocean remains hungry, and the ship creaks ominously beneath your feet as if it knows that death is soon to visit the deck.",
+        "Action: Make friends",
+        "You sheath your rusted cutlass and extend a hand toward the swirling, translucent mist that forms the Ghost Captain. You offer a warm smile, shouting over the thunder that perhaps there is no need for bloodshed in such a wretched storm. The spectral entity freezes, its hollow sockets widening in genuine confusion before erupting into a cacophony of screeching, ghostly laughter that vibrates through your very marrow. 'Friends? You speak of friendship to a soul bound to the rot of the deep?' he rasps, his form surging forward like a tidal wave of sorrow. Before you can even retract your hand, a freezing, incorporeal blade of solidified shadow lashes out, slicing through your defenses and leaving a trail of frost upon your armor. Your naive attempt at diplomacy has only served to enrage the spirit, and the cold bite of his fury drains your warmth as the ship groans under the assault of the rising, angry tide.",
+        "Action: Attack the Ghost Captain with your rusted cutlass",
+        "You tighten your grip on the hilt of your rusted cutlass and lunge forward, shouting a challenge that barely cuts through the howling gale. The blade passes through the Ghost Captain's translucent chest with a sound like tearing silk, but the cold iron bites true, leaving a glowing, jagged fissure in his spectral form. He shrieks, a sound of grinding shipwrecks and ancient sorrows, as he recoils from the strike. The deck shudders violently beneath your boots as the phantom retaliates, his shadowy blade parrying your follow-up with unnatural force. You feel the sting of his icy touch on your skin, but your resolve remains unshaken. The spirit is wounded, bleeding pale ectoplasm into the rain, and for the first time, you see a flicker of genuine fear in those hollow, burning sockets. The fight has truly begun, and the ship is hungry for a victor.",
+        "Action: Perform a heavy overhead slash with the cutlass",
+        "You scream a war cry that matches the fury of the storm, swinging your rusted cutlass in a wide, punishing arc above your head. The steel whistles through the torrential rain, gathering the weight of your desperation as it descends squarely upon the Ghost Captain's spectral collarbone. With a sound like a cracking glacier, the blade cleaves deep into his ethereal essence, causing the spirit to shatter into a flurry of blinding, necrotic sparks. The captain lets out one final, agonizing wail that seems to shatter the very clouds above, before dissolving entirely into the roiling, dark sea. As the last remnants of his presence vanish, a heavy, golden glint catches the moonlight amidst the debris on the deck: the fabled Golden Skull, pulsating with a dark, rhythmic thrum. The storm begins to subside, leaving you gasping for breath upon the slick, splintered timber of your triumphant vessel."
+      ]
+    },
+    "inventory": [
+      {
+        "name": "Rusted Cutlass",
+        "type": "weapon",
+        "quantity": 1
+      },
+      {
+        "name": "Old Spyglass",
+        "type": "utility",
+        "quantity": 1
+      },
+      {
+        "name": "Golden Skull",
+        "type": "relic",
+        "quantity": 1
+      }
+    ],
+    "quest": {
+      "title": "Retrieve the Golden Skull",
+      "description": "Defeat the ghost captain and claim the relic.",
+      "status": "completed",
+      "reward": "The Golden Skull"
+    },
+    "scene": {
+      "type": "treasure",
+      "location": "Ship Deck",
+      "background": "A shattered ghost ship deck under a clearing stormy sky, golden skull glowing.",
+      "music": "victory.mp3"
+    },
+    "choices": [
+      "Examine the Golden Skull for hidden markings",
+      "Search the surrounding wreckage for more loot",
+      "Set sail for the nearest pirate port",
+      "Pray to the sea gods for safe passage"
+    ],
+    "gameStatus": {
+      "gameOver": false,
+      "victory": true,
+      "saveTime": "2026-06-28T14:35:18.107Z"
+    },
+    "npc": {
+      "name": "None",
+      "emotion": "None",
+      "dialogue": "Silence hangs over the deck."
+    },
+    "enemy": {
+      "name": "Ghost Captain",
+      "health": 0,
+      "status": "defeated"
+    },
+    "randomEvent": {
+      "triggered": false,
+      "event": "none"
+    }
+  },
+  {
+    "id": "game_zcx2u7zjg",
+    "player": {
+      "name": "Sir Kirti",
+      "class": "Knight",
+      "health": 100,
+      "mana": 50,
+      "gold": 250,
+      "level": 1,
+      "experience": 0
+    },
+    "world": {
+      "name": "Zombie Apocalypse",
+      "difficulty": "Medium",
+      "currentLocation": "Store"
+    },
+    "story": {
+      "currentText": "The automatic doors of the convenience store groan as you force them open, the sound echoing like a gunshot in the silent, smog-choked streets of Sector 4. The air is heavy with the stench of ozone and rotting flesh, a grim reminder of the world you now inhabit. You are Sir Kirti, and your journey has just begun; the flickering neon sign above suggests danger lurks in the shadows of the abandoned supermarket shelves. You stand at Level 1, needing 100 experience points to advance. Your mission is clear: survive this concrete wasteland and find an extraction route before the horde finds you. Every movement matters here, and your trusty crowbar is the only thing keeping the darkness at bay. Stay vigilant, for the dead rarely sleep in this Sector.",
+      "history": [
+        "The automatic doors of the convenience store groan as you force them open, the sound echoing like a gunshot in the silent, smog-choked streets of Sector 4. The air is heavy with the stench of ozone and rotting flesh, a grim reminder of the world you now inhabit. You are Sir Kirti, and your journey has just begun; the flickering neon sign above suggests danger lurks in the shadows of the abandoned supermarket shelves. You stand at Level 1, needing 100 experience points to advance. Your mission is clear: survive this concrete wasteland and find an extraction route before the horde finds you. Every movement matters here, and your trusty crowbar is the only thing keeping the darkness at bay. Stay vigilant, for the dead rarely sleep in this Sector."
+      ]
+    },
+    "inventory": [
+      {
+        "name": "Crowbar",
+        "type": "weapon",
+        "quantity": 1
+      },
+      {
+        "name": "Canned Meat",
+        "type": "food",
+        "quantity": 1
+      },
+      {
+        "name": "Small Radio",
+        "type": "utility",
+        "quantity": 1
+      }
+    ],
+    "quest": {
+      "title": "Escape Sector 4",
+      "description": "Navigate Sector 4 and find a safe extraction route.",
+      "reward": "500 Gold",
+      "status": "active"
+    },
+    "scene": {
+      "type": "exploration",
+      "location": "Convenience Store",
+      "background": "A dimly lit convenience store with overturned shelves, shattered glass, and bloodstains, cinematic horror.",
+      "music": "zombie.mp3"
+    },
+    "choices": [
+      "Search the back office for supplies",
+      "Listen to the radio for SOS signals",
+      "Exit the store to explore the street",
+      "Barricade the entrance with nearby crates"
+    ],
+    "gameStatus": {
+      "gameOver": false,
+      "victory": false,
+      "saveTime": "2026-06-28T14:51:39.142Z"
+    }
+  },
+  {
+    "id": "game_ijed29v0w",
+    "player": {
+      "name": "Sir Kirti",
+      "class": "Knight",
+      "health": 100,
+      "mana": 50,
+      "gold": 250,
+      "level": 1,
+      "experience": 20
+    },
+    "world": {
+      "name": "Pirate Ocean",
+      "difficulty": "Medium",
+      "currentLocation": "Black Reef Edge"
+    },
+    "story": {
+      "currentText": "You raise the brass spyglass to your eye, squinting through the relentless deluge as lightning fractures the horizon. The lens fogs, but as you wipe it clean, the Black Reef reveals its horrific secret: a splintered, ethereal galleon is anchored amidst the jagged rocks, its sails tattered like grave shrouds. A ghostly, luminous figure paces the deck, clutching a glowing, golden artifact that pulses with a cold, sickly light. The sight confirms your target, though the malevolent energy radiating from the wreck makes your very soul shiver. Your heart hammers against your ribs; you are only a Level 1 adventurer, and the path to Level 5, where you must ultimately conquer such horrors, stretches long and perilous before you. You have gained 20 experience for locating the target; survive these waters, slay the minions of the reef, and grow stronger to claim your prize.",
+      "history": [
+        "The storm roars above as you plant your boots firmly on the rain-slicked mahogany of your ship, the 'Sea Wraith.' Lightning splits the obsidian sky, illuminating the terrifying silhouette of the Black Reef in the distance, where the ghost captain supposedly guards the Golden Skull. The salt spray bites at your skin, and the creak of the hull beneath you acts as a grim rhythm to your journey. You are currently at Level 1; you must survive the treacherous waters and gather strength to reach Level 5, where the final confrontation awaits. Every monster slain or secret uncovered will edge you closer to the next level. Your quest to retrieve the legendary relic has officially begun, and the restless spirits of these cursed waters are already watching your every move from the churning depths below.",
+        "Action: Use the spyglass to scan the Black Reef",
+        "You raise the brass spyglass to your eye, squinting through the relentless deluge as lightning fractures the horizon. The lens fogs, but as you wipe it clean, the Black Reef reveals its horrific secret: a splintered, ethereal galleon is anchored amidst the jagged rocks, its sails tattered like grave shrouds. A ghostly, luminous figure paces the deck, clutching a glowing, golden artifact that pulses with a cold, sickly light. The sight confirms your target, though the malevolent energy radiating from the wreck makes your very soul shiver. Your heart hammers against your ribs; you are only a Level 1 adventurer, and the path to Level 5, where you must ultimately conquer such horrors, stretches long and perilous before you. You have gained 20 experience for locating the target; survive these waters, slay the minions of the reef, and grow stronger to claim your prize."
+      ]
+    },
+    "inventory": [
+      {
+        "name": "Rusted Cutlass",
+        "type": "weapon",
+        "quantity": 1
+      },
+      {
+        "name": "Rye Biscuit",
+        "type": "food",
+        "quantity": 2
+      },
+      {
+        "name": "Old Spyglass",
+        "type": "utility",
+        "quantity": 1
+      }
+    ],
+    "quest": {
+      "title": "Retrieve the Golden Skull",
+      "description": "Defeat the ghost captain and claim the relic.",
+      "status": "active",
+      "reward": "The Golden Skull"
+    },
+    "scene": {
+      "type": "exploration",
+      "location": "Black Reef Edge",
+      "background": "Dark stormy ocean, jagged black rocks, ghost ship silhouette, cinematic lighting, hyper-realistic art",
+      "music": "ambient.mp3"
+    },
+    "choices": [
+      "Steer the Sea Wraith closer to the ghost ship.",
+      "Attempt to signal the ghost captain with a light.",
+      "Search the lower deck for more supplies.",
+      "Consult the ship's map for a hidden passage."
+    ],
+    "gameStatus": {
+      "gameOver": false,
+      "victory": false,
+      "saveTime": "2026-06-28T14:55:59.957Z"
+    },
+    "npc": {
+      "name": "None",
+      "emotion": "None",
+      "dialogue": "None"
+    },
+    "enemy": {
+      "name": "Ghost Captain",
+      "health": 100,
+      "status": "alive"
+    },
+    "randomEvent": {
+      "triggered": false,
+      "event": "None"
+    }
+  },
+  {
+    "id": "game_vsbsyg690",
+    "player": {
+      "name": "Sir Kirti",
+      "class": "Knight",
+      "health": 85,
+      "mana": 50,
+      "gold": 250,
+      "level": 1,
+      "experience": 20
+    },
+    "world": {
+      "name": "Zombie Apocalypse",
+      "difficulty": "Medium",
+      "currentLocation": "Dark Alleyway"
+    },
+    "story": {
+      "currentText": "Panic takes hold of you, and you scramble backward, your boots slipping on the slick, oil-stained pavement. Your desperate movement makes a deafening racket against the metal trash cans, instantly alerting the creature. The Twitching Infected snaps its head toward you, its eyes milky and vacant, before letting out a guttural, wet screech that tears through the silence of the alley. It lunges with surprising, unnatural speed, closing the distance between you in a blink. You barely manage to raise your crowbar to deflect its gnashing teeth, but the force of its frantic assault knocks the wind out of you. You are currently Level 1, needing 80 more experience points to advance to Level 2. The adrenaline is pumping through your veins, but the creature is relentless; you have alerted the pack, and this is now a fight for your very survival in the heart of Sector 4.",
+      "history": [
+        "The sliding glass doors of the convenience store grind open with a screech of rusted metal, revealing the desolate, oil-slicked expanse of Sector 4. A thick, grey fog clings to the pavement, obscuring the hulking skeletons of abandoned sedans and the distant, rhythmic moans of the restless dead. As Sir Kirti, you stand on the threshold of this concrete nightmare, your crowbar gripped tightly as the stench of rotting flesh fills the stagnant air. You are currently at Level 1, and you need to scavenge resources and survive encounters to reach Level 2. The path ahead is treacherous, and every shadow could conceal a hungry threat. Your mission to escape this sector has truly begun, and the silence of the city is only broken by the distant sound of breaking glass and your own steady, calculated breathing. Tread carefully, for the apocalypse does not forgive the careless.",
+        "Action: Sneak through the dark alleyway",
+        "You compress your frame against the soot-stained brickwork, slipping into the claustrophobic confines of the alleyway. The stench here is unbearable—a mixture of stagnant sewage and the metallic tang of dried blood. As you creep forward, your boots crunch softly on shattered glass, the sound echoing like a gunshot in the oppressive silence. Ahead, a flickering neon sign casts disjointed shadows, revealing the hunched silhouette of a lone, twitching infected feasting on a pile of refuse. It hasn't spotted you yet, but its jagged movements suggest a heightened sensitivity to sound. You are currently Level 1, and you need 80 more experience points to reach Level 2. Every decision here is a gamble between survival and a gruesome end in this concrete maze.",
+        "Action: Oh my god run",
+        "Panic takes hold of you, and you scramble backward, your boots slipping on the slick, oil-stained pavement. Your desperate movement makes a deafening racket against the metal trash cans, instantly alerting the creature. The Twitching Infected snaps its head toward you, its eyes milky and vacant, before letting out a guttural, wet screech that tears through the silence of the alley. It lunges with surprising, unnatural speed, closing the distance between you in a blink. You barely manage to raise your crowbar to deflect its gnashing teeth, but the force of its frantic assault knocks the wind out of you. You are currently Level 1, needing 80 more experience points to advance to Level 2. The adrenaline is pumping through your veins, but the creature is relentless; you have alerted the pack, and this is now a fight for your very survival in the heart of Sector 4."
+      ]
+    },
+    "inventory": [
+      {
+        "name": "Crowbar",
+        "type": "weapon",
+        "quantity": 1
+      },
+      {
+        "name": "Canned Meat",
+        "type": "food",
+        "quantity": 1
+      },
+      {
+        "name": "Small Radio",
+        "type": "utility",
+        "quantity": 1
+      }
+    ],
+    "quest": {
+      "title": "Escape Sector 4",
+      "description": "Navigate Sector 4 and find a safe extraction route.",
+      "status": "active",
+      "reward": "Survival and freedom from Sector 4"
+    },
+    "scene": {
+      "type": "combat",
+      "location": "Dark Alleyway",
+      "background": "A dark, cramped city alleyway with flickering neon lights, gore, and shadows.",
+      "music": "battle.mp3"
+    },
+    "choices": [
+      "Swing the crowbar at the infected's head",
+      "Push a dumpster into the infected to create distance",
+      "Shout to distract the infected",
+      "Attempt to scramble up the fire escape"
+    ],
+    "gameStatus": {
+      "gameOver": false,
+      "victory": false,
+      "saveTime": "2026-06-28T14:59:30.182Z"
+    },
+    "npc": {
+      "name": "None",
+      "emotion": "N/A",
+      "dialogue": "N/A"
+    },
+    "enemy": {
+      "name": "Twitching Infected",
+      "health": 30,
+      "status": "alive"
+    },
+    "randomEvent": {
+      "triggered": false,
+      "event": "None"
+    }
+  },
+  {
+    "id": "game_vql7q8p8u",
+    "player": {
+      "name": "Sir Kirti",
+      "class": "Knight",
+      "health": 100,
+      "mana": 50,
+      "gold": 250,
+      "level": 1,
+      "experience": 10
+    },
+    "world": {
+      "name": "Zombie Apocalypse",
+      "difficulty": "Medium",
+      "currentLocation": "Abandoned Cars on the Street"
+    },
+    "story": {
+      "currentText": "As you investigate the abandoned cars, you find a few useful items, including a first-aid kit, a bottle of water, and a toolbox with a screwdriver and pliers. You also discover a small note with a cryptic message about a potential safe house located a few blocks away. Your search yields 10 experience points, bringing your total to 10. You're still at Level 1, but you're making progress. Your current health is 100, and your mana is 50. You've got 250 gold and a growing inventory of supplies. You'll need to keep scavenaging and fighting to reach Level 2, where you'll unlock new abilities and increase your chances of survival.",
+      "history": [
+        "You step out of the store and into the desolate streets of Sector 4, the harsh reality of the zombie apocalypse hitting you like a ton of bricks. The air is thick with the stench of decay and smoke, and the only sounds are the distant moans of the infected and the creaking of twisted metal. You've got your trusty crowbar by your side and a can of meat in your backpack, but you know it won't be enough to get you through this hellhole. Your goal is to find a safe extraction route and escape Sector 4, but for now, you're just trying to survive. You're currently at Level 1, with 0 experience points, and you'll need to scavenge for supplies and take down enemies to level up and increase your chances of survival.",
+        "Action: Investigate the abandoned cars on the street for any useful items",
+        "As you investigate the abandoned cars, you find a few useful items, including a first-aid kit, a bottle of water, and a toolbox with a screwdriver and pliers. You also discover a small note with a cryptic message about a potential safe house located a few blocks away. Your search yields 10 experience points, bringing your total to 10. You're still at Level 1, but you're making progress. Your current health is 100, and your mana is 50. You've got 250 gold and a growing inventory of supplies. You'll need to keep scavenaging and fighting to reach Level 2, where you'll unlock new abilities and increase your chances of survival."
+      ]
+    },
+    "inventory": [
+      {
+        "name": "Crowbar",
+        "type": "weapon",
+        "quantity": 1
+      },
+      {
+        "name": "Canned Meat",
+        "type": "food",
+        "quantity": 1
+      },
+      {
+        "name": "Small Radio",
+        "type": "utility",
+        "quantity": 1
+      },
+      {
+        "name": "First-Aid Kit",
+        "type": "medical",
+        "quantity": 1
+      },
+      {
+        "name": "Bottle of Water",
+        "type": "water",
+        "quantity": 1
+      },
+      {
+        "name": "Toolbox",
+        "type": "tools",
+        "quantity": 1
+      }
+    ],
+    "quest": {
+      "title": "Escape Sector 4",
+      "description": "Navigate Sector 4 and find a safe extraction route",
+      "status": "active",
+      "reward": "Unknown"
+    },
+    "scene": {
+      "type": "exploration",
+      "location": "Abandoned Cars on the Street",
+      "background": "A desolate street with abandoned cars, rubble, and debris scattered everywhere, under a dark and ominous sky",
+      "music": "ambient.mp3"
+    },
+    "choices": [
+      "Head towards the potential safe house",
+      "Continue scavenging the abandoned cars",
+      "Explore the surrounding buildings",
+      "Follow the sound of distant gunfire"
+    ],
+    "gameStatus": {
+      "gameOver": false,
+      "victory": false,
+      "saveTime": "2026-06-28T15:06:41.523Z"
+    },
+    "npc": {
+      "name": "",
+      "emotion": "",
+      "dialogue": ""
+    },
+    "enemy": {
+      "name": "",
+      "health": 0,
+      "status": "alive"
+    },
+    "randomEvent": {
+      "triggered": false,
+      "event": ""
+    }
+  }
+]
