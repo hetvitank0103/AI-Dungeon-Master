@@ -1,0 +1,6 @@
+{
+  "name": "AI Dungeon Master",
+  "description": "An interactive, text-based RPG where an AI Dungeon Master narrates a dynamic dark fantasy adventure based on your custom choices and actions.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
