@@ -1,154 +1,19 @@
 [
   {
-    "id": "game_heoj3462p",
-    "player": {
-      "name": "User",
-      "class": "Bicycle Messenger",
-      "health": 100,
-      "mana": 50,
-      "gold": 250,
-      "level": 1,
-      "experience": 0
-    },
-    "world": {
-      "name": "Zombie Apocalypse",
-      "difficulty": "Medium",
-      "currentLocation": "London Hospital",
-      "locations": [
-        "London Hospital",
-        "Piccadilly Circus",
-        "Mansion Blockade",
-        "Rainy Outpost",
-        "Radio Tower"
-      ],
-      "storyName": "28 Days Later"
-    },
-    "story": {
-      "currentText": "You cautiously decide to: \"Enter the World\". You observe your surroundings at the London Hospital, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*",
-      "history": [
-        "You cautiously decide to: \"Enter the World\". You observe your surroundings at the London Hospital, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*"
-      ]
-    },
-    "inventory": [
-      {
-        "name": "Machete",
-        "type": "weapon",
-        "quantity": 1
-      },
-      {
-        "name": "Emergency Flares",
-        "type": "utility",
-        "quantity": 3
-      }
-    ],
-    "quest": {
-      "title": "Escape Empty London",
-      "description": "Survive the deserted streets of London and trace the military radio broadcast to a safe outpost.",
-      "reward": "500 Gold",
-      "status": "active"
-    },
-    "scene": {
-      "type": "exploration",
-      "location": "London Hospital",
-      "background": "An eerie, completely abandoned Westminster Bridge in London under a heavy bleak overcast sky, red double-decker bus crashed, quiet survival dread mood, detailed digital oil painting",
-      "music": "zombie.mp3"
-    },
-    "choices": [
-      "Search for supplies",
-      "Rest and recover",
-      "Go to Piccadilly Circus"
-    ],
-    "gameStatus": {
-      "gameOver": false,
-      "victory": false,
-      "saveTime": "2026-06-29T17:44:29.806Z"
-    }
-  },
-  {
-    "id": "game_pfvravboh",
-    "player": {
-      "name": "User",
-      "class": "UN Investigator",
-      "health": 100,
-      "mana": 50,
-      "gold": 250,
-      "level": 1,
-      "experience": 0
-    },
-    "world": {
-      "name": "Zombie Apocalypse",
-      "difficulty": "Medium",
-      "currentLocation": "Philadelphia Streets",
-      "locations": [
-        "Philadelphia Streets",
-        "Jerusalem Wall",
-        "WHO Laboratory",
-        "Plane Cabin",
-        "Refugee Camp"
-      ],
-      "storyName": "World War Z"
-    },
-    "story": {
-      "currentText": "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Philadelphia Streets, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*",
-      "history": [
-        "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Philadelphia Streets, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*"
-      ]
-    },
-    "inventory": [
-      {
-        "name": "Tactical Pistol",
-        "type": "weapon",
-        "quantity": 1
-      },
-      {
-        "name": "Satellite Phone",
-        "type": "utility",
-        "quantity": 1
-      },
-      {
-        "name": "WHO Vaccine Sample",
-        "type": "potion",
-        "quantity": 1
-      }
-    ],
-    "quest": {
-      "title": "Find Patient Zero",
-      "description": "Locate scientific clues about the origin of the swarm while defending fortified walls and finding a vaccine.",
-      "reward": "600 Gold",
-      "status": "active"
-    },
-    "scene": {
-      "type": "exploration",
-      "location": "Philadelphia Streets",
-      "background": "A towering concrete border wall under attack by a massive wave of climbing zombies piling up like ants, black smoke rising, military helicopters in sky, photorealistic post-apocalyptic cinematic painting",
-      "music": "zombie.mp3"
-    },
-    "choices": [
-      "Search for supplies",
-      "Rest and recover",
-      "Go to Jerusalem Wall"
-    ],
-    "gameStatus": {
-      "gameOver": false,
-      "victory": false,
-      "saveTime": "2026-06-29T17:48:00.512Z"
-    }
-  },
-  {
-    "id": "game_89d2w3wsf",
+    "id": "game_e09fae5c2",
     "player": {
       "name": "User",
       "class": "Fund Manager",
       "health": 100,
-      "mana": 50,
-      "gold": 250,
+      "mana": 55,
+      "gold": 300,
       "level": 1,
-      "experience": 0
+      "experience": 25
     },
     "world": {
       "name": "Zombie Apocalypse",
       "difficulty": "Medium",
-      "currentLocation": "Train Compartment",
+      "currentLocation": "Daejeon Station",
       "locations": [
         "Train Compartment",
         "Daejeon Station",
@@ -159,9 +24,11 @@
       "storyName": "Train to Busan"
     },
     "story": {
-      "currentText": "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Train Compartment, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*",
+      "currentText": "[RIGHT ANSWER] You flawlessly executed your action! You gain +1 Heart (+20 Health), +5 Mana, and +50 Gold!\n\nYou gather your belongings and travel carefully to the Daejeon Station. The air shifts as you cross boundaries, feeling the tense atmosphere of this new sector. You gain 15 XP. You encounter Survivor Jack, who looks at you with a apprehensive expression. \n\n*[STORY FLOW: You are currently Level 1/5 (25/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*",
       "history": [
-        "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Train Compartment, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*"
+        "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Train Compartment, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*",
+        "Action: Go to Daejeon Station",
+        "[RIGHT ANSWER] You flawlessly executed your action! You gain +1 Heart (+20 Health), +5 Mana, and +50 Gold!\n\nYou gather your belongings and travel carefully to the Daejeon Station. The air shifts as you cross boundaries, feeling the tense atmosphere of this new sector. You gain 15 XP. You encounter Survivor Jack, who looks at you with a apprehensive expression. \n\n*[STORY FLOW: You are currently Level 1/5 (25/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*"
       ]
     },
     "inventory": [
@@ -188,32 +55,42 @@
       "status": "active"
     },
     "scene": {
-      "type": "exploration",
-      "location": "Train Compartment",
+      "type": "dialogue",
+      "location": "Daejeon Station",
       "background": "Inside a speeding high-tech train compartment, blood splatters, shattered glass, frantic passengers, hyper-fast zombies scratching at the glass doors, dramatic horror cinematic digital art",
       "music": "zombie.mp3"
     },
     "choices": [
       "Search for supplies",
       "Rest and recover",
-      "Go to Daejeon Station"
+      "Go to Train Compartment",
+      "Go to Locked Vestibule"
     ],
     "gameStatus": {
       "gameOver": false,
       "victory": false,
-      "saveTime": "2026-06-29T18:04:15.685Z"
+      "saveTime": "2026-06-30T09:17:22.023Z"
+    },
+    "npc": {
+      "name": "Survivor Jack",
+      "emotion": "apprehensive",
+      "dialogue": "Thank goodness, another human. Stay quiet, they are attracted to fast movements."
+    },
+    "randomEvent": {
+      "triggered": false,
+      "event": ""
     }
   },
   {
-    "id": "game_6yex8jdgj",
+    "id": "game_a6yb3hbai",
     "player": {
       "name": "User",
       "class": "Fund Manager",
       "health": 100,
-      "mana": 50,
-      "gold": 250,
+      "mana": 60,
+      "gold": 350,
       "level": 1,
-      "experience": 0
+      "experience": 50
     },
     "world": {
       "name": "Zombie Apocalypse",
@@ -229,9 +106,13 @@
       "storyName": "Train to Busan"
     },
     "story": {
-      "currentText": "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Train Compartment, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*",
+      "currentText": "[RIGHT ANSWER] You flawlessly executed your action! You gain +1 Heart (+20 Health), +5 Mana, and +50 Gold!\n\nYou gather your belongings and travel carefully to the Train Compartment. The air shifts as you cross boundaries, feeling the tense atmosphere of this new sector. You gain 15 XP. You encounter Survivor Jack, who looks at you with a apprehensive expression. \n\n*[STORY FLOW: You are currently Level 1/5 (50/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*",
       "history": [
-        "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Train Compartment, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*"
+        "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Train Compartment, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*",
+        "Action: Go to Daejeon Station",
+        "[RIGHT ANSWER] You flawlessly executed your action! You gain +1 Heart (+20 Health), +5 Mana, and +50 Gold!\n\nYou gather your belongings and travel carefully to the Daejeon Station. The air shifts as you cross boundaries, feeling the tense atmosphere of this new sector. You gain 15 XP. You encounter Survivor Jack, who looks at you with a apprehensive expression. \n\n*[STORY FLOW: You are currently Level 1/5 (25/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*",
+        "Action: Go to Train Compartment",
+        "[RIGHT ANSWER] You flawlessly executed your action! You gain +1 Heart (+20 Health), +5 Mana, and +50 Gold!\n\nYou gather your belongings and travel carefully to the Train Compartment. The air shifts as you cross boundaries, feeling the tense atmosphere of this new sector. You gain 15 XP. You encounter Survivor Jack, who looks at you with a apprehensive expression. \n\n*[STORY FLOW: You are currently Level 1/5 (50/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*"
       ]
     },
     "inventory": [
@@ -258,7 +139,7 @@
       "status": "active"
     },
     "scene": {
-      "type": "exploration",
+      "type": "dialogue",
       "location": "Train Compartment",
       "background": "Inside a speeding high-tech train compartment, blood splatters, shattered glass, frantic passengers, hyper-fast zombies scratching at the glass doors, dramatic horror cinematic digital art",
       "music": "zombie.mp3"
@@ -271,294 +152,23 @@
     "gameStatus": {
       "gameOver": false,
       "victory": false,
-      "saveTime": "2026-06-29T18:04:29.443Z"
+      "saveTime": "2026-06-30T09:40:08.540Z"
+    },
+    "npc": {
+      "name": "Survivor Jack",
+      "emotion": "apprehensive",
+      "dialogue": "Thank goodness, another human. Stay quiet, they are attracted to fast movements."
+    },
+    "randomEvent": {
+      "triggered": false,
+      "event": ""
     }
   },
   {
-    "id": "game_uinm3n9fw",
+    "id": "game_pgwp0l8h8",
     "player": {
       "name": "User",
-      "class": "Fund Manager",
-      "health": 100,
-      "mana": 50,
-      "gold": 250,
-      "level": 1,
-      "experience": 0
-    },
-    "world": {
-      "name": "Zombie Apocalypse",
-      "difficulty": "Medium",
-      "currentLocation": "Train Compartment",
-      "locations": [
-        "Train Compartment",
-        "Daejeon Station",
-        "Locked Vestibule",
-        "Engine Room",
-        "Busan Safe Zone"
-      ],
-      "storyName": "Train to Busan"
-    },
-    "story": {
-      "currentText": "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Train Compartment, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*",
-      "history": [
-        "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Train Compartment, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*"
-      ]
-    },
-    "inventory": [
-      {
-        "name": "Baseball Bat",
-        "type": "weapon",
-        "quantity": 1
-      },
-      {
-        "name": "Duct Tape",
-        "type": "utility",
-        "quantity": 1
-      },
-      {
-        "name": "Water Bottle",
-        "type": "food",
-        "quantity": 1
-      }
-    ],
-    "quest": {
-      "title": "Survive to Busan",
-      "description": "Make your way through infected carriages of the speeding train to reach the safe engine room and escape to Busan.",
-      "reward": "500 Gold",
-      "status": "active"
-    },
-    "scene": {
-      "type": "exploration",
-      "location": "Train Compartment",
-      "background": "Inside a speeding high-tech train compartment, blood splatters, shattered glass, frantic passengers, hyper-fast zombies scratching at the glass doors, dramatic horror cinematic digital art",
-      "music": "zombie.mp3"
-    },
-    "choices": [
-      "Search for supplies",
-      "Rest and recover",
-      "Go to Daejeon Station"
-    ],
-    "gameStatus": {
-      "gameOver": false,
-      "victory": false,
-      "saveTime": "2026-06-29T18:05:54.396Z"
-    }
-  },
-  {
-    "id": "game_knc2um7uf",
-    "player": {
-      "name": "User",
-      "class": "Fund Manager",
-      "health": 100,
-      "mana": 50,
-      "gold": 250,
-      "level": 1,
-      "experience": 0
-    },
-    "world": {
-      "name": "Zombie Apocalypse",
-      "difficulty": "Medium",
-      "currentLocation": "Train Compartment",
-      "locations": [
-        "Train Compartment",
-        "Daejeon Station",
-        "Locked Vestibule",
-        "Engine Room",
-        "Busan Safe Zone"
-      ],
-      "storyName": "Train to Busan"
-    },
-    "story": {
-      "currentText": "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Train Compartment, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*",
-      "history": [
-        "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Train Compartment, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*"
-      ]
-    },
-    "inventory": [
-      {
-        "name": "Baseball Bat",
-        "type": "weapon",
-        "quantity": 1
-      },
-      {
-        "name": "Duct Tape",
-        "type": "utility",
-        "quantity": 1
-      },
-      {
-        "name": "Water Bottle",
-        "type": "food",
-        "quantity": 1
-      }
-    ],
-    "quest": {
-      "title": "Survive to Busan",
-      "description": "Make your way through infected carriages of the speeding train to reach the safe engine room and escape to Busan.",
-      "reward": "500 Gold",
-      "status": "active"
-    },
-    "scene": {
-      "type": "exploration",
-      "location": "Train Compartment",
-      "background": "Inside a speeding high-tech train compartment, blood splatters, shattered glass, frantic passengers, hyper-fast zombies scratching at the glass doors, dramatic horror cinematic digital art",
-      "music": "zombie.mp3"
-    },
-    "choices": [
-      "Search for supplies",
-      "Rest and recover",
-      "Go to Daejeon Station"
-    ],
-    "gameStatus": {
-      "gameOver": false,
-      "victory": false,
-      "saveTime": "2026-06-29T18:06:49.884Z"
-    }
-  },
-  {
-    "id": "game_joqdbon4b",
-    "player": {
-      "name": "User",
-      "class": "Fund Manager",
-      "health": 100,
-      "mana": 50,
-      "gold": 250,
-      "level": 1,
-      "experience": 0
-    },
-    "world": {
-      "name": "Zombie Apocalypse",
-      "difficulty": "Medium",
-      "currentLocation": "Train Compartment",
-      "locations": [
-        "Train Compartment",
-        "Daejeon Station",
-        "Locked Vestibule",
-        "Engine Room",
-        "Busan Safe Zone"
-      ],
-      "storyName": "Train to Busan"
-    },
-    "story": {
-      "currentText": "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Train Compartment, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*",
-      "history": [
-        "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Train Compartment, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*"
-      ]
-    },
-    "inventory": [
-      {
-        "name": "Baseball Bat",
-        "type": "weapon",
-        "quantity": 1
-      },
-      {
-        "name": "Duct Tape",
-        "type": "utility",
-        "quantity": 1
-      },
-      {
-        "name": "Water Bottle",
-        "type": "food",
-        "quantity": 1
-      }
-    ],
-    "quest": {
-      "title": "Survive to Busan",
-      "description": "Make your way through infected carriages of the speeding train to reach the safe engine room and escape to Busan.",
-      "reward": "500 Gold",
-      "status": "active"
-    },
-    "scene": {
-      "type": "exploration",
-      "location": "Train Compartment",
-      "background": "Inside a speeding high-tech train compartment, blood splatters, shattered glass, frantic passengers, hyper-fast zombies scratching at the glass doors, dramatic horror cinematic digital art",
-      "music": "zombie.mp3"
-    },
-    "choices": [
-      "Search for supplies",
-      "Rest and recover",
-      "Go to Daejeon Station"
-    ],
-    "gameStatus": {
-      "gameOver": false,
-      "victory": false,
-      "saveTime": "2026-06-29T18:06:59.561Z"
-    }
-  },
-  {
-    "id": "game_qlq7gsd3s",
-    "player": {
-      "name": "User",
-      "class": "Mercenary Leader",
-      "health": 100,
-      "mana": 50,
-      "gold": 250,
-      "level": 1,
-      "experience": 0
-    },
-    "world": {
-      "name": "Zombie Apocalypse",
-      "difficulty": "Medium",
-      "currentLocation": "Quarantine Wall",
-      "locations": [
-        "Quarantine Wall",
-        "Siegfried Casino",
-        "Vault Room",
-        "Subway Grid",
-        "Rooftop Helipad"
-      ],
-      "storyName": "Army of the Dead"
-    },
-    "story": {
-      "currentText": "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Quarantine Wall, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*",
-      "history": [
-        "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Quarantine Wall, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*"
-      ]
-    },
-    "inventory": [
-      {
-        "name": "Assault Rifle",
-        "type": "weapon",
-        "quantity": 1
-      },
-      {
-        "name": "Lockpicks",
-        "type": "utility",
-        "quantity": 1
-      },
-      {
-        "name": "Las Vegas Map",
-        "type": "utility",
-        "quantity": 1
-      }
-    ],
-    "quest": {
-      "title": "The Bly Casino Heist",
-      "description": "Infiltrate walled-off Las Vegas, bypass the Alpha zombies, and crack the high-tech casino vault before the tactical strike.",
-      "reward": "1000 Gold",
-      "status": "active"
-    },
-    "scene": {
-      "type": "exploration",
-      "location": "Quarantine Wall",
-      "background": "Ruined post-apocalyptic Las Vegas strip under a burning orange desert sun, crumbling neon signs, massive barricades, alpha zombie tiger patrolling, cinematic heist action illustration",
-      "music": "zombie.mp3"
-    },
-    "choices": [
-      "Search for supplies",
-      "Rest and recover",
-      "Go to Siegfried Casino"
-    ],
-    "gameStatus": {
-      "gameOver": false,
-      "victory": false,
-      "saveTime": "2026-06-29T18:07:12.827Z"
-    }
-  },
-  {
-    "id": "game_h3o6t1z1c",
-    "player": {
-      "name": "User",
-      "class": "Card Illusionist",
+      "class": "The Professor",
       "health": 100,
       "mana": 50,
       "gold": 250,
@@ -568,55 +178,125 @@
     "world": {
       "name": "Magic Academy",
       "difficulty": "Medium",
-      "currentLocation": "Vegas Stage",
+      "currentLocation": "London Music Hall",
       "locations": [
-        "Vegas Stage",
-        "New York Bank Vault",
-        "FBI Interrogation Room",
-        "Secret Warehouse",
-        "Pont Neuf Bridge"
+        "London Music Hall",
+        "Tesla's Laboratory",
+        "Backstage Workshop",
+        "Water Tank Trap",
+        "Secret Wardrobe"
       ],
-      "storyName": "Now You See Me"
+      "storyName": "The Prestige"
     },
     "story": {
-      "currentText": "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Vegas Stage, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*",
+      "currentText": "You cautiously decide to: \"Enter the World\". You observe your surroundings at the London Music Hall, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*",
       "history": [
-        "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Vegas Stage, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*"
+        "You cautiously decide to: \"Enter the World\". You observe your surroundings at the London Music Hall, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*"
       ]
     },
     "inventory": [
       {
-        "name": "Trick Playing Cards",
+        "name": "Tesla Coil Wand",
         "type": "weapon",
         "quantity": 1
       },
       {
-        "name": "Smoke Pellets",
+        "name": "Rival's Diary",
         "type": "utility",
-        "quantity": 3
+        "quantity": 1
       }
     ],
     "quest": {
-      "title": "The Grand Illusion Heist",
-      "description": "Expose corporate corruption and execute staggering magic illusions while evading relentless federal agents.",
-      "reward": "600 Gold",
+      "title": "The Transported Man",
+      "description": "Perfect the ultimate teleportation trick using Tesla's electrical machinery and outwit your rival.",
+      "reward": "500 Gold",
       "status": "active"
     },
     "scene": {
       "type": "exploration",
-      "location": "Vegas Stage",
-      "background": "A sleek modern theater stage with bright white spotlights, cards hovering in the air, glowing neon rings, slick modern thriller aesthetic",
+      "location": "London Music Hall",
+      "background": "A dark late-Victorian laboratory illuminated by giant glowing Tesla coils throwing blue electric sparks, copper apparatus, gaslamps, moody historical sci-fi oil painting",
       "music": "magic.mp3"
     },
     "choices": [
       "Search for supplies",
       "Rest and recover",
-      "Go to New York Bank Vault"
+      "Go to Tesla's Laboratory"
     ],
     "gameStatus": {
       "gameOver": false,
       "victory": false,
-      "saveTime": "2026-06-29T18:07:25.247Z"
+      "saveTime": "2026-06-30T09:17:34.043Z"
+    }
+  },
+  {
+    "id": "game_9xc8f9ffv",
+    "player": {
+      "name": "Test",
+      "class": "Fund Manager",
+      "health": 100,
+      "mana": 55,
+      "gold": 250,
+      "level": 1,
+      "experience": 0
+    },
+    "world": {
+      "name": "Zombie Apocalypse",
+      "difficulty": "Medium",
+      "currentLocation": "Train Compartment",
+      "locations": [
+        "Train Compartment",
+        "Daejeon Station",
+        "Locked Vestibule",
+        "Engine Room",
+        "Busan Safe Zone"
+      ],
+      "storyName": "Train to Busan"
+    },
+    "story": {
+      "currentText": "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Train Compartment, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*",
+      "history": [
+        "You cautiously decide to: \"Enter the World\". You observe your surroundings at the Train Compartment, remaining vigilant for any sudden changes. You gain 5 XP. \n\n*[STORY FLOW: You are currently Level 1/5 (5/100 XP). Perform actions, defeat enemies, and explore locations to gain XP. Reaching Level 5 unlocks the final boss fight!]*"
+      ]
+    },
+    "inventory": [
+      {
+        "name": "Baseball Bat",
+        "type": "weapon",
+        "quantity": 1
+      },
+      {
+        "name": "Duct Tape",
+        "type": "utility",
+        "quantity": 1
+      },
+      {
+        "name": "Water Bottle",
+        "type": "food",
+        "quantity": 1
+      }
+    ],
+    "quest": {
+      "title": "Survive to Busan",
+      "description": "Make your way through infected carriages of the speeding train to reach the safe engine room and escape to Busan.",
+      "reward": "500 Gold",
+      "status": "active"
+    },
+    "scene": {
+      "type": "exploration",
+      "location": "Train Compartment",
+      "background": "Inside a speeding high-tech train compartment, blood splatters, shattered glass, frantic passengers, hyper-fast zombies scratching at the glass doors, dramatic horror cinematic digital art",
+      "music": "zombie.mp3"
+    },
+    "choices": [
+      "Search for supplies",
+      "Rest and recover",
+      "Go to Daejeon Station"
+    ],
+    "gameStatus": {
+      "gameOver": false,
+      "victory": false,
+      "saveTime": "2026-06-30T09:30:48.147Z"
     }
   }
 ]

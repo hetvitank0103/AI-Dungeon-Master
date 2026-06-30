@@ -17,6 +17,7 @@ export default function Button({
   variant = "primary",
   size = "md",
   className = "",
+  type = "button",
   ...props
 }: ButtonProps) {
   const baseStyle =
@@ -67,6 +68,7 @@ export default function Button({
     <motion.button
       whileHover={{ scale: 1.03 }}
       whileTap={{ scale: 0.97 }}
+      type={type}
       className={`${baseStyle} ${variants[variant]} ${sizes[size]} ${className}`}
       {...(props as any)}
     >

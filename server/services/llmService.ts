@@ -4,7 +4,7 @@ import { GameState } from "../../src/types";
 
 // Initialize Gemini SDK with telemetry header as instructed
 const ai = new GoogleGenAI({
-  apiKey: process.env.local.GEMINI_API_KEY || "dummy-key",
+  apiKey: process.env.GEMINI_API_KEY || "dummy-key",
   httpOptions: {
     headers: {
       "User-Agent": "aistudio-build",

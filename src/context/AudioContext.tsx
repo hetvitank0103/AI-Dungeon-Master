@@ -35,6 +35,19 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     volumeRef.current = volume;
   }, [isMuted, volume]);
 
+  useEffect(() => {
+    const unlockAudio = () => {
+      if (audioCtxRef.current && audioCtxRef.current.state === "suspended") {
+        void audioCtxRef.current.resume().catch(() => undefined);
+      }
+    };
+
+    window.addEventListener("click", unlockAudio, { once: true });
+    return () => {
+      window.removeEventListener("click", unlockAudio);
+    };
+  }, []);
+
   // Initialize howler players for the 3 worlds
   useEffect(() => {
     howlPlayers.current = {
@@ -88,7 +101,7 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
   };
 
   const toggleMute = () => {
-    setIsMuted((prev) => !prev);
+    setIsMuted((prev: boolean) => !prev);
   };
 
   const stopMusic = () => {
@@ -116,15 +129,30 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
     }
   };
 
+  const getAudioContext = () => {
+    if (audioCtxRef.current && audioCtxRef.current.state !== "closed") {
+      return audioCtxRef.current;
+    }
+
+    const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
+    if (!AudioContextClass) return null;
+
+    const ctx = new AudioContextClass();
+    audioCtxRef.current = ctx;
+    return ctx;
+  };
+
   // Beautiful Web Audio Synthesizer to guarantee dark fantasy RPG immersion!
   const startSynth = (world: string) => {
     stopSynth();
     try {
-      const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
-      if (!AudioContextClass) return;
+      const ctx = getAudioContext();
+      if (!ctx) return;
 
-      const ctx = new AudioContextClass();
-      audioCtxRef.current = ctx;
+      if (ctx.state === "suspended") {
+        void ctx.resume().catch(() => undefined);
+      }
+
       synthActive.current = true;
 
       // Create a master gain node
@@ -204,9 +232,12 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
   const playSfx = (type: "click" | "sword" | "gold" | "potion" | "levelUp") => {
     if (isMuted) return;
     try {
-      const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
-      if (!AudioContextClass) return;
-      const ctx = new AudioContextClass();
+      const ctx = getAudioContext();
+      if (!ctx) return;
+
+      if (ctx.state === "suspended") {
+        void ctx.resume().catch(() => undefined);
+      }
 
       const gain = ctx.createGain();
       gain.gain.setValueAtTime(volume * 0.3, ctx.currentTime);

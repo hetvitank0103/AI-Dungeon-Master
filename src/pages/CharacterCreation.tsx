@@ -208,6 +208,7 @@ export default function CharacterCreation({ onNavigate }: CharacterCreationProps
   const [rollingValue, setRollingValue] = useState(20);
   const [stats, setStats] = useState({ str: 10, dex: 10, con: 10, int: 10 });
   const [rollResultMsg, setRollResultMsg] = useState("");
+  const [launchError, setLaunchError] = useState("");
 
   // Automatically calculate stats based on chosen class
   useEffect(() => {
@@ -306,6 +307,7 @@ export default function CharacterCreation({ onNavigate }: CharacterCreationProps
 
   const handleEnterWorld = async () => {
     if (!name.trim()) return;
+    setLaunchError("");
     try {
       await startNewGame(
         name,
@@ -316,8 +318,9 @@ export default function CharacterCreation({ onNavigate }: CharacterCreationProps
         diceRoll || undefined
       );
       onNavigate("game");
-    } catch (e) {
+    } catch (e: any) {
       console.error(e);
+      setLaunchError(e?.response?.data?.error || "Unable to start the campaign. Please try again.");
     }
   };
 
@@ -504,6 +507,12 @@ export default function CharacterCreation({ onNavigate }: CharacterCreationProps
             </div>
           </div>
 
+          {launchError ? (
+            <div className="mt-4 rounded-lg border border-red-500/40 bg-red-500/10 px-3 py-2 text-[11px] font-mono text-red-300">
+              {launchError}
+            </div>
+          ) : null}
+
           <div className="mt-6 flex justify-between items-center pt-4 border-t border-[#222]">
             {/* Difficulty */}
             <div className="flex items-center gap-2">
@@ -532,8 +541,12 @@ export default function CharacterCreation({ onNavigate }: CharacterCreationProps
             <Button
               variant={themeColors.btnVariant}
               size="lg"
+              type="button"
               disabled={isLoading || !name.trim()}
-              onClick={handleEnterWorld}
+              onClick={(e) => {
+                e.preventDefault();
+                void handleEnterWorld();
+              }}
               className={`font-mono uppercase tracking-wider text-xs border border-transparent transition-all ${themeColors.btnClass}`}
               id="enter-campaign-btn"
             >
